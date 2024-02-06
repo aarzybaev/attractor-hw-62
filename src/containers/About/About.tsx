@@ -10,7 +10,7 @@ const About: React.FC = () => {
       <div className="row mt-4">
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member"/>
+            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Team Member"/>
               <div className="card-body">
                 <h5 className="card-title">John Doe</h5>
                 <p className="card-text">Position: CEO</p>
@@ -20,7 +20,7 @@ const About: React.FC = () => {
 
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member"/>
+            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Team Member"/>
               <div className="card-body">
                 <h5 className="card-title">Jane Smith</h5>
                 <p className="card-text">Position: CTO</p>
@@ -30,7 +30,7 @@ const About: React.FC = () => {
 
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member"/>
+            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Team Member"/>
               <div className="card-body">
                 <h5 className="card-title">Bob Johnson</h5>
                 <p className="card-text">Position: CFO</p>
