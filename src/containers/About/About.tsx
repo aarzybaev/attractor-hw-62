@@ -1,5 +1,7 @@
 import React from 'react';
-
+import person1 from '../../assets/person-1.jpg';
+import person2 from '../../assets/person-2.jpg';
+import person3 from '../../assets/person-3.jpg';
 const About: React.FC = () => {
   return (
     <div className="container mt-4">
@@ -10,7 +12,7 @@ const About: React.FC = () => {
       <div className="row mt-4">
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Team Member"/>
+            <img src={person1} className="card-img-top" alt="Team Member"/>
               <div className="card-body">
                 <h5 className="card-title">John Doe</h5>
                 <p className="card-text">Position: CEO</p>
@@ -20,7 +22,7 @@ const About: React.FC = () => {
 
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Team Member"/>
+            <img src={person2} className="card-img-top" alt="Team Member"/>
               <div className="card-body">
                 <h5 className="card-title">Jane Smith</h5>
                 <p className="card-text">Position: CTO</p>
@@ -30,7 +32,7 @@ const About: React.FC = () => {
 
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Team Member"/>
+            <img src={person3} className="card-img-top" alt="Team Member"/>
               <div className="card-body">
                 <h5 className="card-title">Bob Johnson</h5>
                 <p className="card-text">Position: CFO</p>

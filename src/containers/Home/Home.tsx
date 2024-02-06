@@ -1,5 +1,5 @@
 import React from 'react';
-
+import service from '../../assets/service.jpg';
 const Home: React.FC = () => {
   return (
     <div className="container mt-4">
@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       <div className="row mt-4">
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/300" className="card-img-top" alt="Card Image"/>
+            <img src={service} className="card-img-top" alt="Card Image"/>
               <div className="card-body">
                 <h5 className="card-title">Featured Service 1</h5>
                 <p className="card-text">Description of the featured service.</p>
@@ -21,7 +21,7 @@ const Home: React.FC = () => {
 
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/300" className="card-img-top" alt="Card Image"/>
+            <img src={service} className="card-img-top" alt="Card Image"/>
               <div className="card-body">
                 <h5 className="card-title">Featured Service 2</h5>
                 <p className="card-text">Description of the featured service.</p>
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
 
         <div className="col-md-4">
           <div className="card">
-            <img src="https://via.placeholder.com/300" className="card-img-top" alt="Card Image"/>
+            <img src={service} className="card-img-top" alt="Card Image"/>
               <div className="card-body">
                 <h5 className="card-title">Featured Service 3</h5>
                 <p className="card-text">Description of the featured service.</p>
